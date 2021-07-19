@@ -8,6 +8,11 @@ using System.IO;
 
 public static class Storage
 {
+    /*OVERWORLD STUFF*/
+    //Can player move through map, interact with different locations
+    public static bool isMapScrollable=true;
+    //State of game: value determines which game areas are unlocked
+    public static int gameState=0;
     //Keep track of whether in battle and the state of said battle.
     public static bool dance=false;
     public static bool battle=false;
